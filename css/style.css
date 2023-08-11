@@ -604,7 +604,10 @@ h1, h2, h3, h4, h5,
   background-position: center center; }
   .hero, .hero > .container > .row {
     height: 100vh;
-    min-height: 500px; }
+    min-height: 500px;
+   display: flex;
+  }
+ 
   .hero.overlay:before {
     content: "";
     position: absolute;
@@ -723,7 +726,8 @@ h1, h2, h3, h4, h5,
   padding: 100px 0; }
   .latest-news .post-entry {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+  height: 200px;}
     .latest-news .post-entry img {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
@@ -767,7 +771,8 @@ h1, h2, h3, h4, h5,
         position: absolute;
         bottom: 30px;
         left: 30px;
-        right: 30px; }
+        right: 30px;
+      height: 0px; }
         .latest-news .post-entry .caption .caption-inner h3 {
           font-size: 16px;
           font-weight: 700;
