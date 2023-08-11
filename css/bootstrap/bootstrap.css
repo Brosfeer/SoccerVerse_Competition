@@ -1065,7 +1065,7 @@ pre {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .col-lg-8 {
+    .col-lg-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
@@ -6402,7 +6402,9 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important; }
+  margin-left: auto !important;
+ color: #000;
+}
 
 @media (min-width: 576px) {
   .m-sm-0 {
