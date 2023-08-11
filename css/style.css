@@ -1127,3 +1127,12 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    .pfeedbk{
+      border: rgba(136, 183, 213, 0);
+      color: #edf0f5;
+      border: 1px solid #edf0f5;
+      background-color: #b20d2d;
+      font-weight: bold;
+      padding: 7px;
+
+    }
