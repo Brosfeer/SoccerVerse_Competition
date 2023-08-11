@@ -56,24 +56,30 @@
           </div>
           <div class="ml-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                <li>
-                  <select onchange="window.location.href = this.value;">
-                    <option value="upcoming.html">Schedual score</option>
-                    <option value="upcoming.html"> Upcoming Match</option>
-                    <option value="lastMatch.html"> Result of Past Match</option>
-                    <option value="statistic.html">Statistics Match</option>
-                  </select>
-                </li>
-                <li><a href="players.html" class="nav-link">Best Players</a></li>
-                <li><a href="topSoccer.html" class="nav-link">Top Soccer</a></li>
-                <li><a href="feedback.html" class="nav-link">FeedBack</a></li>
-              </ul>
-            </nav>
+                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                  <li>
+                    <select onchange="window.location.href = this.value;">
+                      <option value="upcoming.html"> Upcoming Match</option>
+                      <option value="#">Schedual score</option>
+                      <option value="lastMatch.html"> Result of Past Match</option>
+                      <option value="statistic.html">Statistics Match</option>
+                    </select>
+                  </li>
+                  <li><a href="players.html" class="nav-link">Best Players</a></li>
+                  <li>
+                    <select select onchange="window.location.href = this.value;">
+                      <option value="#">Top Soccer</option>
+                      <option value="topPlayer.html">Top Player</option>
+                      <option value="topTeam.html">Top Team</option>
+                    </select>
+                  </li>
+                  <li><a href="#" class="nav-link">FeedBack</a></li>
+                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
 
-            <a href="#"
-              class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
                 class="icon-menu h3 text-white"></span></a>
           </div>
         </div>
@@ -92,309 +98,247 @@
       </div>
     </div>
 
-
-
+    
+    
     <div class="site-section">
-      <div class="container">
-        <div class="row">
+        <div class="container">
+            <div class="row">
+             
 
-
-          <div class="col-lg-6">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
+              <div class="col-lg-6">
+                <div class="widget-next-match">
+                  <div class="widget-title">
+                    <h3>Next Match</h3>
+                  </div>
+                  <div class="widget-body mb-3">
+                    <div class="widget-vs">
+                      <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                        <div class="team-1 text-center">
+                          <a href="images/Real-Madrid-LINEUP.png" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/real-madrid-logo.png" alt="Image">
+                          </a>   
+                          <h3>REAL MADRID</h3>
+                        </div>
+                        <div>
+                          <span class="vs"><span>VS</span></span>
+                        </div>
+                        <div class="team-2 text-center">
+                          <a href="images/ALMIRIA_LINEUP.png" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/Almiria.png" alt="Image">
+                          </a>
+                          <h3>ALMERIA</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="text-center widget-vs-contents mb-4">
+                    <h4>World Cup League</h4>
+                    <p class="mb-5">
+                      <span class="d-block">AUG 14th, 2032</span>
+                      <span class="d-block">9:30 AM GMT+0</span>
+                      <strong class="text-primary">New Euro Arena</strong>
+                    </p>
+                    <div id="date-countdown2" class="pb-1"></div>
+                  </div>
+                </div>
               </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <a href="images/real.jpg" class="d-flex play-button align-items-center" data-fancybox>
-                        <img src="images/logo_1.png" alt="Image">
-                      </a>
-
-                      <h3>Football League</h3>
-
-
+              <div class="col-lg-6">
+                <div class="widget-next-match">
+                  <div class="widget-title">
+                    <h3>Next Match</h3>
+                  </div>
+                  <div class="widget-body mb-3">
+                    <div class="widget-vs">
+                      <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                        <div class="team-1 text-center">
+                          <a href="images/Barcelona-LINEUP.png" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/BARCH.png" alt="Image">
+                          </a>
+                          <h3>BARCELONA</h3>
+                        </div>
+                        <div>
+                          <span class="vs"><span>VS</span></span>
+                        </div>
+                        <div class="team-2 text-center">
+                          <a href="images/GITAFI-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/KIT.png" alt="Image">
+                          </a>
+                          <h3>kHITAFI</h3>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
+                  </div>
+    
+                  <div class="text-center widget-vs-contents mb-4">
+                    <h4>New Euro Arena</h4>
+                    <p class="mb-5">
+                      <span class="d-block">AUG 13th,2023</span>
+                      <span class="d-block">10:30 PM GMT+0</span>
+                      <strong class="text-primary">New Euro Arena</strong>
+                    </p>
+                    <div id="date-countdown2" class="pb-1"></div>
+                  </div>
+                </div>
+              </div>    <div class="col-lg-6">
+                <div class="widget-next-match">
+                  <div class="widget-title">
+                    <h3>Next Match</h3>
+                  </div>
+                  <div class="widget-body mb-3">
+                    <div class="widget-vs">
+                      <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                        <div class="team-1 text-center">
+                          <a href="images/LIVER-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/LIVER.png" alt="Image">
+                          </a>
+                          <h3>LIVERPOOL</h3>
+                        </div>
+                        <div>
+                          <span class="vs"><span>VS</span></span>
+                        </div>
+                        <div class="team-2 text-center">
+                          <a href="images/CHEL_LINEUP.png" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/CHEL.png" alt="Image">
+                          </a>
+                          <h3>CHELSEA</h3>
+                        </div>
+                      </div>
                     </div>
-                    <div class="team-2 text-center">
-                      <img src="images/logo_2.png" alt="Image">
-                      <h3>Soccer</h3>
+                  </div>
+    
+                  <div class="text-center widget-vs-contents mb-4">
+                    <h4>English Premier League</h4>
+                    <p class="mb-5">
+                      <span class="d-block">AUG 13th, 2023</span>
+                      <span class="d-block">6:30 PM GMT+0</span>
+                      <strong class="text-primary">English Premier League</strong>
+                    </p>
+                    <div id="date-countdown2" class="pb-1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="widget-next-match">
+                  <div class="widget-title">
+                    <h3>Next Match</h3>
+                  </div>
+                  <div class="widget-body mb-3">
+                    <div class="widget-vs">
+                      <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                        <div class="team-1 text-center">
+                          <a href="images/MANC-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/MANC.png" alt="Image">
+                          </a>
+                          <h3>MANCITY</h3>
+                        </div>
+                        <div>
+                          <span class="vs"><span>VS</span></span>
+                        </div>
+                        <div class="team-2 text-center">
+                          <a href="images/SEVILLA-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/sevilla.png" alt="Image">
+                          </a>
+                          <h3>SEVILLA FC</h3>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+    
+                  <div class="text-center widget-vs-contents mb-4">
+                    <h4>Spanish Super Cup".</h4>
+                    <p class="mb-5">
+                      <span class="d-block">AUG 16th, 2023</span>
+                      <span class="d-block">10:00 PM GMT+0</span>
+                      <strong class="text-primary">Spanish Super Cup".</strong>
+                    </p>
+                    <div id="date-countdown2" class="pb-1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="widget-next-match">
+                  <div class="widget-title">
+                    <h3>Next Match</h3>
+                  </div>
+                  <div class="widget-body mb-3">
+                    <div class="widget-vs">
+                      <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                        <div class="team-1 text-center">
+                          <a href="images/VILLARREAL-LINEUP.png" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/Villarreal.png" alt="Image">
+                          </a>
+                          <h3>VILLARREAL</h3>
+                        </div>
+                        <div>
+                          <span class="vs"><span>VS</span></span>
+                        </div>
+                        <div class="team-2 text-center">
+                          <a href="images/REAL-BETIS-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/real-betis-logo.png" alt="Image">
+                          </a>
+                          <h3>REAL BETIS</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="text-center widget-vs-contents mb-4">
+                    <h4>World Cup League</h4>
+                    <p class="mb-5">
+                      <span class="d-block">AUG 13th, 2023</span>
+                      <span class="d-block">8:30 PM GMT+0</span>
+                      <strong class="text-primary">Football League</strong>
+                    </p>
+                    <div id="date-countdown2" class="pb-1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="widget-next-match">
+                  <div class="widget-title">
+                    <h3>Next Match</h3>
+                  </div>
+                  <div class="widget-body mb-3">
+                    <div class="widget-vs">
+                      <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
+                        <div class="team-1 text-center">
+                          <a href="images/PARIS-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/PARIS.png" alt="Image">
+                          </a>
+                          <h3>PARIS PSG</h3>
+                        </div>
+                        <div>
+                          <span class="vs"><span>VS</span></span>
+                        </div>
+                        <div class="team-2 text-center">
+                          <a href="images/LORIN-LINEUP.jpg" class="d-flex play-button align-items-center" data-fancybox>
+                          <img src="images/lORIN.png" alt="Image">
+                          </a>
+                          <h3>LORIENT</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="text-center widget-vs-contents mb-4">
+                    <h4>FRANCHE SUPER CUP</h4>
+                    <p class="mb-5">
+                      <span class="d-block">AUG 12th, 2023</span>
+                      <span class="d-block">10:00 PM GMT+0</span>
+                      <strong class="text-primary">New franch Arena</strong>
+                    </p>
+                    <div id="date-countdown2" class="pb-1"></div>
                   </div>
                 </div>
               </div>
 
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
-                <div id="date-countdown2" class="pb-1"></div>
+              <div class="col-lg-6">
+    
+              
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
-              </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <img src="images/logo_1.png" alt="Image">
-                      <h3>Football League</h3>
-                    </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
-                    </div>
-                    <div class="team-2 text-center">
-                      <img src="images/logo_2.png" alt="Image">
-                      <h3>Soccer</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
-                <div id="date-countdown2" class="pb-1"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
-              </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <img src="images/logo_1.png" alt="Image">
-                      <h3>Football League</h3>
-                    </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
-                    </div>
-                    <div class="team-2 text-center">
-                      <img src="images/logo_2.png" alt="Image">
-                      <h3>Soccer</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
-                <div id="date-countdown2" class="pb-1"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
-              </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <img src="images/logo_1.png" alt="Image">
-                      <h3>Football League</h3>
-                    </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
-                    </div>
-                    <div class="team-2 text-center">
-                      <img src="images/logo_2.png" alt="Image">
-                      <h3>Soccer</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
-                <div id="date-countdown2" class="pb-1"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
-              </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <img src="images/logo_1.png" alt="Image">
-                      <h3>Football League</h3>
-                    </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
-                    </div>
-                    <div class="team-2 text-center">
-                      <img src="images/logo_2.png" alt="Image">
-                      <h3>Soccer</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
-                <div id="date-countdown2" class="pb-1"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="widget-next-match">
-              <div class="widget-title">
-                <h3>Next Match</h3>
-              </div>
-              <div class="widget-body mb-3">
-                <div class="widget-vs">
-                  <div class="d-flex align-items-center justify-content-around justify-content-between w-100">
-                    <div class="team-1 text-center">
-                      <img src="images/logo_1.png" alt="Image">
-                      <h3>Football League</h3>
-                    </div>
-                    <div>
-                      <span class="vs"><span>VS</span></span>
-                    </div>
-                    <div class="team-2 text-center">
-                      <img src="images/logo_2.png" alt="Image">
-                      <h3>Soccer</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="text-center widget-vs-contents mb-4">
-                <h4>World Cup League</h4>
-                <p class="mb-5">
-                  <span class="d-block">December 20th, 2020</span>
-                  <span class="d-block">9:30 AM GMT+0</span>
-                  <strong class="text-primary">New Euro Arena</strong>
-                </p>
-                <div id="date-countdown2" class="pb-1"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="widget-next-match">
-              <table class="table custom-table">
-                <thead>
-                  <tr>
-                    <th>P</th>
-                    <th>Team</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>PTS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td><strong class="text-white">Football League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td><strong class="text-white">Soccer</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td><strong class="text-white">Juvendo</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td><strong class="text-white">French Football League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td><strong class="text-white">Legia Abante</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td><strong class="text-white">Gliwice League</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td><strong class="text-white">Cornika</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td><strong class="text-white">Gravity Smash</strong></td>
-                    <td>22</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>140</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-          </div>
-        </div>
-      </div>
     </div>
 
 
@@ -458,12 +402,12 @@
           <div class="col-md-12">
             <div class=" pt-5">
               <p>
-
+    
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved | This Websiteis made with <i class="icon-heart" aria-hidden="true"></i>
-                by <a href="https://heroestech.com" target="_blank">HeroesTech</a>
+                </script> All rights reserved | This Websiteis made with <i class="icon-heart"
+                  aria-hidden="true"></i> by <a href="https://heroestech.com" target="_blank">HeroesTech</a>
               </p>
             </div>
           </div>
