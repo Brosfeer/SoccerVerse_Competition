@@ -193,7 +193,7 @@ h5,
 
 @media (min-width: 768px) {
   .site-section {
-    padding: 5em 0;
+    padding: 3em 0;
   }
 }
 
@@ -447,13 +447,12 @@ h5,
 }
 
 .site-navbar .site-navigation .site-menu>li>a {
-  font-weight: bold;
   padding: 5px 20px;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  font-weight: 400;
   display: inline-block;
   text-decoration: none !important;
 }
@@ -885,6 +884,7 @@ h5,
 .hero>.container>.row {
   height: 100vh;
   min-height: 500px;
+  display: flex;
 }
 
 .hero.overlay:before {
@@ -909,7 +909,8 @@ h5,
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 #date-countdown {
@@ -1048,6 +1049,7 @@ h5,
 .latest-news .post-entry {
   position: relative;
   overflow: hidden;
+  height: 400px;
 }
 
 .latest-news .post-entry img {
@@ -1102,6 +1104,7 @@ h5,
   bottom: 30px;
   left: 30px;
   right: 30px;
+  height: 0px;
 }
 
 .latest-news .post-entry .caption .caption-inner h3 {
@@ -1622,13 +1625,12 @@ h5,
   padding: 0;
   margin: 0;
   list-style: none;
-  color: #fff;
+  color:#fff;
   list-style: none;
-  border: none;
 
 }
 
-.selOp option {
+.selOp option{
   display: block;
   padding: 8px 16px;
   text-decoration: none;
